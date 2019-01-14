@@ -13,6 +13,10 @@ app.post('/', function(req, res) {
   res.send('POST request to root directory');
 });
 
+app.post('/id87', function(req, res) {
+  res.send('POST request to id87 directory');
+});
+
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');
 });
