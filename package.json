@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "node.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mrsmile-lp/node.js.git"
+  },
+  "author": "Ilya Novikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrsmile-lp/node.js/issues"
+  },
+  "homepage": "https://github.com/mrsmile-lp/node.js#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "webpack": "^4.28.4"
+  }
+}
